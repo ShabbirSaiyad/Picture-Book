@@ -16,18 +16,18 @@
 
         <!-- Navbar -->
         <div class="header">
-
+            <!-- #f7f9fd; -->
             <div class='logoDiv'>
-                <a href="#" class='logo flex'>
-                    <i class="fa-regular fa-images " style="color: #f7f9fd;"></i>
-                    <h3>PICTURES BOOK</h3>
+                <a href="/" class='logo flex'>
+                    <i class="fa-regular fa-images " style="color:rgb(11, 10, 10)"></i>
+                    <p class="logoName">Pictures Book</p>
                 </a>
             </div>
 
             <div class="navbar" id="nav">
                 <ul class='navLists'>
                     <li class='navItems'>
-                        <a href="#" class='navLink'>Home</a>
+                        <a href="/" class='navLink'>Home</a>
                     </li>
                     <li class='navItems'>
                         <a href="#" class='navLink'>Products</a>
@@ -42,76 +42,78 @@
                         <a href="#" class='navLink'>Blog</a>
                     </li>
 
-                    <div class='headerBtns flex'>
-                        <button class='btn login_signBtn'>
-                            <a href='#'>Login</a>
-                        </button>
-                        <button class='login_signBtn btn '>
-                            <a href='#'>Sign Up</a>
-                        </button>
-                    </div>
 
                 </ul>
-
-                <div class="closeNavbar">
-                    <i class="fa-solid fa-square-xmark" style="color: #ffffff;" onclick="closeNavbar()"></i>
-                </div>
-
             </div>
 
-            <div class="toggleNavbar">
-                <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="toggleNavbar()"></i>
+            <div class='headerBtns flex'>
+                <button class='btn login_signBtn'>
+                    <a href='#'>Login</a>
+                </button>
+                <button class='login_signBtn btn '>
+                    <a href='#'>Sign Up</a>
+                </button>
+            </div>
+
+            <div class="closeNavbar">
+                <i class="fa-solid fa-square-xmark" style="color: #ffffff;" onclick="closeNavbar()"></i>
             </div>
 
         </div>
 
-        <!--Light Box -->
-        <div class="lightbox">
-            <div class="wrapp">
-                <header>
-                    <div class="photographer">
-                        <i class="uil uil-camera"></i>
-                        <span></span>
-                    </div>
-                    <div class="buttons">
-                        <i class="uil uil-import"></i>
-                        <i class="uil uil-times"></i>
-                    </div>
-                </header>
-                <div class="preview-img">
-                    <div class="img"><img src="" alt="preview-img"></div>
-
-                </div>
-            </div>
+        <div class="toggleNavbar">
+            <i class="fa-solid fa-bars" style="color: #ffffff;" onclick="toggleNavbar()"></i>
         </div>
 
-        <!-- Flower Background-->
-        <div class="mainContainer">
-            <div class="intro">
-                <img src="Assets/bg2.jpg" alt="" class="bgimage">
-                <div class="introheading">
-                    <h1 class="title">Pictures Book </h1>
-                    <p class="subtitle">Explore collections of spectaculars</p>
-                    <div class="search">
-                        <input type="text" placeholder="Search images" id="searchbar">
-                        <i class="fa-sharp fa-solid fa-magnifying-glass searchicon"></i>
-                    </div>
-                    <button class="btn">
-                        <a href="#" class="explorebtn">Explore Now</a>
-                    </button>
+    <!--Light Box -->
+    <div class="lightbox">
+        <div class="wrapp">
+            <header>
+                <div class="photographer">
+                    <i class="uil uil-camera"></i>
+                    <span></span>
                 </div>
+                <div class="buttons">
+                    <i class="uil uil-import"></i>
+                    <i class="uil uil-times"></i>
+                </div>
+            </header>
+            <div class="preview-img">
+                <div class="img"><img src="" alt="preview-img"></div>
 
             </div>
         </div>
+    </div>
 
-        <!--Gallery-->
-        <div class="galleryImage">
+    <!-- Flower Background-->
+    <div class="mainContainer">
+        <div class="intro">
+     
+                <img src="./Assets/background.jpg" alt="" class="bgimage">
+            
+            <div class="introheading">
+                <h1 class="title">Pictures Book </h1>
+                <p class="subtitle">Explore collections of spectaculars</p>
+                <div class="search">
+                    <input type="text" placeholder="Search images" id="searchbar">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass searchicon"></i>
+                </div>
+                <button class="btn">
+                    <a href="#" class="explorebtn">Explore Now</a>
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Gallery-->
+    <div class="galleryImage">
         <ul class="images"></ul>
         <button class="load-more">Load More</button>
-        </div>
+    </div>
 
-     <!-- collections of images -->
-        <!---
+    <!-- collections of images -->
+    <!---
         <div class="container">
             <h1>Picture Book</h1>
             <div class="gallery">
@@ -148,12 +150,10 @@
             
         </div>
     -->
-    
-    
-    
-</div>
 
+    </div>
 
+ 
 </body>
 
 </html>
